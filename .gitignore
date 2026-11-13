@@ -1,0 +1,33 @@
+# 个人数据与运行产物，不要上传
+prices.json
+prices.json.bak
+tasks.json
+econ_news.json
+english_words.json
+deals.json
+control.json
+settings.json
+watchlist.json
+oil_manual.json
+手动数据.txt
+update.log
+*.tmp
+
+# 已迁出的私人任务数据（本程序不依赖）
+routines.json
+
+# 本地截图与调试残留，不要上传
+screenshot_*.png
+widget_*.png
+widget_verify_snippet.txt
+
+# 打包产物（exe 请放到 GitHub Releases，不要提交进仓库）
+build/
+dist/
+*.spec
+*.exe
+files.zip
+TinaDesk.zip
+
+__pycache__/
+*.pyc
